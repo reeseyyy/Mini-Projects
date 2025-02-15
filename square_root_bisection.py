@@ -34,5 +34,6 @@ def square_root_bisection(square_target, tolerance=1e-7, max_iterations=100):
     
     return root
 
-N = 16
+N = int(input("Enter a number: "))
 
+square_root_bisection(N)
